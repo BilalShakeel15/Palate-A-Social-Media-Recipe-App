@@ -1,0 +1,152 @@
+/* Main page styling */
+.edit-profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A3CF4C; /* Green background */
+    min-height: 100vh;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+/* Upload section styling */
+.upload-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upload-options {
+    flex-grow: 1;
+}
+
+.upload-options h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.browse-button,
+.update-button {
+    padding: 8px 16px;
+    border: 1px solid #333;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.browse-button:hover,
+.update-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Edit Profile Form styling */
+.edit-profile-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px; /* Increased width */
+}
+
+.edit-profile-form h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Form group styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+/* Center form buttons */
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Medium-sized buttons */
+.change-password-button,
+.save-changes-button {
+    padding: 10px 20px; /* Medium button size */
+    border: 1px solid #333;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.change-password-button:hover,
+.save-changes-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .upload-section,
+    .edit-profile-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+}

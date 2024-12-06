@@ -1,0 +1,6 @@
+@Palete_HostAddress = http://localhost:5152
+
+GET {{Palete_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

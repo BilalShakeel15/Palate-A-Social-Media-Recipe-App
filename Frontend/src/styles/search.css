@@ -1,0 +1,78 @@
+.search-section {
+    margin-top: 100px;
+    padding: 40px 0; /* Adjust spacing as needed */
+}
+
+.welcome-icon {
+    width: 340px; /* Adjust icon size as needed */
+    height: 155px;
+    position: relative; /* Ensure the container holds its children in place */
+    overflow: hidden; /* Hide any overflow of the image */
+    margin: 0px auto;
+    margin-bottom: 60px;
+}
+
+.welcome-icon img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.search-circle {
+    width: 100px; /* Adjust circle size as needed */
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px; /* Adjust spacing as needed */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.search-circle.green {
+    background-color: #A6CE39; /* Use your actual green color */
+    border: 3px solid #82a61e;
+}
+
+.search-circle.red {
+    background-color: #E53935;
+    border: 3px solid #981917; /* Use your actual red color */
+}
+
+.search-circle img {
+    width: 50%; /* Adjust icon size within circle as needed */
+    height: auto;
+}
+
+.search-labels {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.search-circle:hover {
+    transform: scale(1.1); /* Slightly increase the size while maintaining circle */
+}
+
+/* Responsive Adjustments (using Bootstrap's grid breakpoints) */
+@media (max-width: 991px) { /* For tablets and smaller */
+    .search-circle {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+@media (max-width: 480px) { /* For screens 480px and below */
+    .welcome-icon {
+        width: 75%; /* Responsive width */
+        height: auto; /* Automatically adjust height */
+        max-width: 300px; /* Set a maximum width */
+        max-height: 150px; /* Set a maximum height */
+    }
+
+    .welcome-icon img {
+        width: 100%; /* Responsive image width */
+        height: auto; /* Automatically adjust height */
+    }
+}

@@ -1,0 +1,176 @@
+/* Style for the custom carousel arrows */
+.custom-carousel .control-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5); /* Slight transparency */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.custom-carousel .control-prev {
+  left: 10px; /* Position the left button */
+}
+
+.custom-carousel .control-next {
+  right: 10px; /* Position the right button */
+}
+
+.custom-carousel .control-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
+
+.custom-carousel .carousel .slide {
+  display: flex;
+  justify-content: center;
+}
+
+/* Main Container with Slight Horizontal Margins */
+
+.recipe-detail-container {
+  max-width: 100%;
+  margin: 0 50px;
+  padding: 20px;
+}
+
+/* Recipe Title Styling */
+.title {
+  text-align: center;
+  font-size: 2.2rem; /* Prominent heading */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Recipe Detail Grid Layout */
+.recipe-detail {
+  display: grid;
+  grid-template-areas:
+      "image instructions"
+      "ingredients notes"
+      "buttons buttons";
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 10px; /* Slight padding for overall container */
+  background-color: #f8f9fa; /* Light background color for the main content */
+}
+
+/* Recipe Image Section */
+.recipe-image-section {
+  grid-area: image;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; /* Ensures the image covers the container proportionally */
+}
+
+/* Instructions Section */
+.instructions-section {
+  grid-area: instructions;
+  background-color: #f4c7c6; /* Soft yellow background */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.instructions-section h2, .ingredients-section h2, .notes-section h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+/* Ingredients Section */
+.ingredients-section {
+  grid-area: ingredients;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.ingredients-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Notes Section */
+.notes-section {
+  grid-area: notes;
+  background-color: #f4c7c6; /* Soft pink background */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Buttons Section */
+.button-section {
+  grid-area: buttons;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Icon Styling */
+.icon-time::before { content: "🕒"; }
+.icon-easy::before { content: "💪"; }
+.icon-serve::before { content: "🍽️"; }
+
+/* Responsive Design for Medium Screens (Tablets and Small Laptops) */
+@media (max-width: 1270px) {
+  .recipe-detail {
+    grid-template-areas:
+      "image"
+      "instructions"
+      "ingredients"
+      "notes"
+      "buttons";
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+
+  .recipe-detail-container {
+    margin: 0 20px; /* Reduce horizontal margin */
+  }
+}
+
+/* Responsive Design for Small Screens (Smartphones) */
+@media (max-width: 768px) {
+  .recipe-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .recipe-image-section {
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+  }
+
+  .instructions-section,
+  .ingredients-section,
+  .notes-section {
+    margin-bottom: 20px; /* Space between sections */
+  }
+
+  .button-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

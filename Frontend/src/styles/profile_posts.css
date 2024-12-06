@@ -1,0 +1,63 @@
+/* Container for the profile posts page */
+.profile-posts-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header icons */
+.header {
+    display: flex;
+    gap: 240px;
+    background-color: #A3CF4C;
+    width: 100%;
+    justify-content: center;
+    padding: 15px;
+}
+
+.icon img {
+    width: 40px; /* Increased icon size */
+    height: 40px; /* Increased icon size */
+}
+
+/* Image grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Image items */
+.image-item {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* Makes the item a square */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .header {
+        gap: 20px;
+    }
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

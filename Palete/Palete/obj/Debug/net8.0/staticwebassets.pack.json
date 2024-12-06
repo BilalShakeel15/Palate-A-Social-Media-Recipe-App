@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\01193f43-4962-48c6-9012-07bf1ed24eca.mp4",
+      "PackagePath": "staticwebassets\\recipeMedia\\01193f43-4962-48c6-9012-07bf1ed24eca.mp4"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\0782b6bd-3eb3-47f1-8ee1-9d0eb901771a.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\0782b6bd-3eb3-47f1-8ee1-9d0eb901771a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\20270fdc-aaa3-4069-b84f-7e7344987e36.jpeg",
+      "PackagePath": "staticwebassets\\recipeMedia\\20270fdc-aaa3-4069-b84f-7e7344987e36.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\3fffff4b-4fed-480f-b050-c7761faef9b6.jpeg",
+      "PackagePath": "staticwebassets\\recipeMedia\\3fffff4b-4fed-480f-b050-c7761faef9b6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\44c859b9-f359-474a-b86a-d17a73b1de23.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\44c859b9-f359-474a-b86a-d17a73b1de23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\7662b7c0-ae89-4db5-b33a-be4208f4532e.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\7662b7c0-ae89-4db5-b33a-be4208f4532e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\8e6cefb4-ba83-4249-bd3e-1645bd8d9201.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\8e6cefb4-ba83-4249-bd3e-1645bd8d9201.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\8f52176a-f980-4c55-b2f4-70e55da17693.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\8f52176a-f980-4c55-b2f4-70e55da17693.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\9daa7cce-7326-4c8d-8f76-73b645510294.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\9daa7cce-7326-4c8d-8f76-73b645510294.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\a8dfd57f-1791-4616-b410-e6db565638e1.jpeg",
+      "PackagePath": "staticwebassets\\recipeMedia\\a8dfd57f-1791-4616-b410-e6db565638e1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\bd8b0368-04e8-44cd-af9b-fbc3fd6a625c.mp4",
+      "PackagePath": "staticwebassets\\recipeMedia\\bd8b0368-04e8-44cd-af9b-fbc3fd6a625c.mp4"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\ca43adb3-f0f4-4ebd-896d-1ff61196e74d.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\ca43adb3-f0f4-4ebd-896d-1ff61196e74d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\cf48de99-7fcc-4057-b2ea-a6293305d06f.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\cf48de99-7fcc-4057-b2ea-a6293305d06f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\f08e893f-e510-4171-a971-5ee719799e8f.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\f08e893f-e510-4171-a971-5ee719799e8f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\wajiz.pk\\Desktop\\DB Project\\Palete\\Palete\\wwwroot\\recipeMedia\\f99b28a0-882e-443d-a72b-205e281ad474.jpg",
+      "PackagePath": "staticwebassets\\recipeMedia\\f99b28a0-882e-443d-a72b-205e281ad474.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Palete.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Palete.props",
+      "PackagePath": "build\\Palete.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Palete.props",
+      "PackagePath": "buildMultiTargeting\\Palete.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Palete.props",
+      "PackagePath": "buildTransitive\\Palete.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

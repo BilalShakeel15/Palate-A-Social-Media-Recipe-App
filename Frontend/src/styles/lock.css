@@ -1,0 +1,18 @@
+.lock-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.lock-image {
+    width: 50px;   /* Adjust the size of the lock image */
+    height: 50px;  /* Adjust the size of the lock image */
+    margin-bottom: 10px;
+}
+
+.lock-message p {
+    font-size: 18px;
+    color: #333;
+}

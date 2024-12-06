@@ -1,0 +1,76 @@
+.recipe-card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 290px; /* Fixed width */
+    margin: 0 auto; /* Center the cards */
+    border-radius: 10px; /* Smooth corners */
+}
+.temp{
+    height: 10vh;
+    width: 10vw;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: red;
+    object-fit: contain;
+}
+.recipe-img {
+    width: 140px; /* Fixed width for a circular image */
+    height: 140px; /* Fixed height to match width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire circle without being cut */
+    margin: 10px auto; /* Centers the image */
+    display: block; /* Ensures the image is treated as a block element */
+}
+
+.rating {
+    color: #A6CE39; /* Green star color */
+    font-size: 1.2rem; /* Increase star size */
+}
+
+.share-save {
+    display: flex;
+    align-items: center;
+}
+
+.share-save .icon {
+    width: 24px; /* Set icon size */
+    height: 24px; /* Set icon size */
+    margin-left: 10px; /* Space between icons */
+    cursor: pointer; /* Pointer cursor for interactive icons */
+}
+
+.info-icon {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center;
+}
+
+.info-icon-img {
+    width: 28px; /* Increased icon size */
+    height: 28px; /* Increased icon size */
+    margin-bottom: 5px; /* Space between icon and label */
+}
+
+.info-text {
+    font-size: 14px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .recipe-card {
+        margin-bottom: 20px;
+        max-width: 100%; /* Full width on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .recipe-img {
+        height: 120px; /* Slightly reduce image size on smaller screens */
+        width: 120px;
+    }
+
+    .info-icon-img {
+        width: 24px; /* Slightly reduce icon size on smaller screens */
+        height: 24px;
+    }
+}

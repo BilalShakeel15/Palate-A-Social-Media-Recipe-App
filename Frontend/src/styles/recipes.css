@@ -1,0 +1,73 @@
+/* Styling for the recipe cards */
+.recipe-card {
+  margin-bottom: 30px; /* Add space between rows */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Center the cards on smaller screens */
+@media (max-width: 768px) {
+  .recipe-card {
+    text-align: center;
+  }
+}
+
+/* Responsive card image */
+.recipe-card img {
+  max-width: 80%;
+    height: 63%;
+    border-radius: 69%;
+}
+
+/* Customize card styling for recipe */
+.recipe-card .card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.recipe-card .card-text {
+  color: #666;
+}
+
+.recipe-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recipe-card .icon {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Add hover effect */
+.recipe-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+/* 2 columns layout for screens between 768px and 1200px */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .col-md-4 {
+    width: calc(50% - 30px); /* 2 columns with space between */
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .recipe-card {
+    margin-bottom: 40px; /* Ensure space between rows */
+  }
+}
+
+/* 3 columns layout for larger screens (1200px and above) */
+@media (min-width: 1200px) {
+  .col-md-4 {
+    width: calc(33.333% - 30px); /* 3 columns with space between */
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .recipe-card {
+    margin-bottom: 40px; /* Ensure space between rows */
+  }
+}

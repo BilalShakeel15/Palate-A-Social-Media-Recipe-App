@@ -1,0 +1,118 @@
+.recipes-navbar {
+    background-color: #A6CE39; /* Green background */
+    padding: 10px 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.recipes-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.recipes-navbar li {
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.recipes-navbar li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.recipes-navbar li a.active {
+    color: red;
+}
+
+.recipes-navbar li a:hover {
+    color: darkred;
+}
+
+/* Hide the navbar on smaller screens */
+.hide-navbar {
+    display: none;
+}
+
+/* More icon styling */
+.more-icon-container {
+    display: none;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.more-icon {
+    width: 40px; /* Larger size for the more icon */
+    height: 40px;
+    cursor: pointer;
+}
+
+.sliding-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Initially hidden */
+    width: 250px;
+    height: 100%;
+    background-color: #A6CE39; /* Same green background */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.sliding-menu ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.sliding-menu li {
+    margin: 20px 0;
+}
+
+.sliding-menu li a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.sliding-menu li a.active {
+    color: red;
+}
+
+.sliding-menu li a:hover {
+    color: darkred;
+}
+
+.menu-open {
+    right: 0; /* Slide the menu into view */
+}
+
+/* Close icon styling */
+.close-icon-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.close-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Media query to handle smaller screens */
+@media (max-width: 863px) {
+    .recipes-navbar {
+        display: none; /* Hide the navbar */
+    }
+
+    .more-icon-container {
+        display: block; /* Show the more icon */
+    }
+}
