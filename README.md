@@ -2,9 +2,6 @@
 
 # Palate 🌐🍴
 
-**Palate** is a dynamic social platform designed to connect home cooks, professional chefs, and food enthusiasts. It empowers users to share, discover, and engage with recipes in an interactive online community, celebrating the art of cooking.
-
----
 
 ## 🚀 **Introduction**
 
