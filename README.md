@@ -1,6 +1,4 @@
-Here's a detailed README file template for your **Palate** project. You can customize it further as needed:
 
----
 
 # Palate 🌐🍴
 
