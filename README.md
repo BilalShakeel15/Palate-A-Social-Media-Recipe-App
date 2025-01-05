@@ -68,6 +68,10 @@ With Palate, you can unleash your creativity in the kitchen, gain inspiration, a
 ## 📷 **Screenshots**
 
 ![palate](https://github.com/user-attachments/assets/5c24c897-d203-40fc-af26-1354c816a1bc)
+![image](https://github.com/user-attachments/assets/4738f57a-e2e5-4dea-8c28-4b22e45e876e)
+![image](https://github.com/user-attachments/assets/e9860d84-ec79-4fa5-a6d6-e9f52253fd4f)
+
+
 
 
 
