@@ -67,9 +67,8 @@ With Palate, you can unleash your creativity in the kitchen, gain inspiration, a
 
 ## 📷 **Screenshots**
 
-*Include screenshots here to showcase the platform's design and features.*
+![palate](https://github.com/user-attachments/assets/5c24c897-d203-40fc-af26-1354c816a1bc)
 
----
 
 
 
